@@ -77,7 +77,7 @@ var myLocation = L.mapbox.featureLayer().addTo(map);
 map.locate();
 map.on('locationfound', function(e) {
 
-    myLayer.setGeoJSON({
+    myLocation.setGeoJSON({
         type: 'Feature',
         geometry: {
             type: 'Point',
