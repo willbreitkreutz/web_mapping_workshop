@@ -23,8 +23,8 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#43094c",
-        "fillColor": "#43094c",
+        "color": "#fff",
+        "fillColor": "#fff",
         "weight": 1,
         "opacity": 1
     });
@@ -36,6 +36,6 @@ featureLayer.on('ready', function() {
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    layer.bindPopup(layer.feature.properties.name);
+    layer.bindPopup('Trail Name: ' + layer.feature.properties.name);
   });
 });
