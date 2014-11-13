@@ -14,7 +14,7 @@ map.setView([39, -96], 4);
 ///////////////////////////////////////////////////////////////////////////
 // This is the area we're going to use to add data to our map
 
-var dataFileToAdd = 'data/powercat.geojson'; //<- Point this to the file that you want to include on the map
+var dataFileToAdd = 'data/leveed_area.geojson'; //<- Point this to the file that you want to include on the map
 var dataToAdd;
 
 var featureLayer = L.mapbox.featureLayer()
@@ -23,8 +23,8 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#43094c",
-        "fillColor": "#43094c",
+        "color": "#6583BF",
+        "fillColor": "#6583BF",
         "weight": .5,
         "opacity": 0.65
     });
