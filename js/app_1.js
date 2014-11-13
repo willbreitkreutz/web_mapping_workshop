@@ -1,3 +1,4 @@
+///////////////////////////////////////////////////////////////////////////
 // Enter your mapbox map id here to reference it for the base layer
 
 var mapId = 'will-breitkreutz.k6fj4l3f'; //<- this references the ugly green map that I made
