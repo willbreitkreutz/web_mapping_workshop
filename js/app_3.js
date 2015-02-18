@@ -14,7 +14,7 @@ map.setView([39, -96], 4);
 ///////////////////////////////////////////////////////////////////////////
 // This is the area we're going to use to add data to our map
 
-var dataFileToAdd = 'data/powercat.geojson'; //<- Point this to the file that you want to include on the map
+var dataFileToAdd = 'data/bike_routes.geojson'; //<- Point this to the file that you want to include on the map
 var dataToAdd;
 
 var featureLayer = L.mapbox.featureLayer()
@@ -23,10 +23,10 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#43094c",
-        "fillColor": "#43094c",
-        "weight": .5,
-        "opacity": 0.65
+        "color": "#fff",
+        "fillColor": "#fff",
+        "weight": 6,
+        "opacity": 1
     });
     map.fitBounds(featureLayer.getBounds());
 });
@@ -36,6 +36,6 @@ featureLayer.on('ready', function() {
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    layer.bindPopup('Hi, my ID value is ' + layer.feature.properties.id);
+    layer.bindPopup('Trail Name: ' + layer.feature.properties.name);
   });
 });

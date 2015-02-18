@@ -14,7 +14,7 @@ map.setView([39, -96], 4);
 ///////////////////////////////////////////////////////////////////////////
 // This is the area we're going to use to add data to our map
 
-var dataFileToAdd = 'data/powercat.geojson'; //<- Point this to the file that you want to include on the map
+var dataFileToAdd = 'data/bike_routes.geojson'; //<- Point this to the file that you want to include on the map
 var dataToAdd;
 
 var featureLayer = L.mapbox.featureLayer()
@@ -23,10 +23,10 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#43094c",
-        "fillColor": "#43094c",
-        "weight": .5,
-        "opacity": 0.65
+        "color": "#F22E2E",
+        "fillColor": "#F22E2E",
+        "weight": 5,
+        "opacity": 1
     });
     map.fitBounds(featureLayer.getBounds());
 });
@@ -59,7 +59,7 @@ var clickHandler = function(e){
   $('#info').fadeIn(400,function(){
     var info = '';
 
-    info = '<div>You clicked on the layer with the id of ' + feature.properties.id + '</div>';
+    info = '<div>Sweet bike route named ' + feature.properties.name + '</div>';
 
     $('#info').append(info);
   });
@@ -71,3 +71,23 @@ featureLayer.on('ready', function(){
     layer.on('click', clickHandler);
   });
 });
+
+
+var myLocation = L.mapbox.featureLayer().addTo(map);
+map.locate();
+map.on('locationfound', function(e) {
+
+    myLocation.setGeoJSON({
+        type: 'Feature',
+        geometry: {
+            type: 'Point',
+            coordinates: [e.latlng.lng, e.latlng.lat]
+        },
+        properties: {
+            'title': 'Here I am!',
+            'marker-color': '#ff8888',
+            'marker-symbol': 'star'
+        }
+    });
+});
+map.locate();
