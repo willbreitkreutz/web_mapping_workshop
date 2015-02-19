@@ -21,10 +21,17 @@ var featureLayer = L.mapbox.featureLayer();
 
 featureLayer.on('ready', function(){
   this.setStyle({
-    "color": "#a90a0a",
+    "marker-color": "#a90a0a",
     "marker-size": "medium"
   });
   map.fitBounds(featureLayer.getBounds());
 });
 
 ////////////////////////////////
+//Add popup
+
+featureLayer.on('ready', function(){
+    this.eachLayer(function(layer){
+        layer.bindPopup('Restaurant Name: ' + layer.feature.properties.name);
+    });
+});
