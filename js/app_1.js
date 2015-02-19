@@ -19,7 +19,7 @@ var featureLayer = L.mapbox.featureLayer();
     featureLayer.loadUrl(dataFileToAdd);
     featureLayer.addTo(map);
 
-featureLayer.on('ready' function(){
+featureLayer.on('ready', function(){
   this.setStyle({
     "marker-color": "#777777",
     "marker-size": "medium"
