@@ -1,0 +1,1572 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-02-19T20:34:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/812746100",
+      "properties": {
+        "@id": "node/812746100",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2628929,
+          37.2397844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/812746135",
+      "properties": {
+        "@id": "node/812746135",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2616591,
+          37.2406171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/812746144",
+      "properties": {
+        "@id": "node/812746144",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Applebees"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2603287,
+          37.2412108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/814588830",
+      "properties": {
+        "@id": "node/814588830",
+        "amenity": "restaurant",
+        "name": "Pizza Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2994911,
+          37.1927218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/824056250",
+      "properties": {
+        "@id": "node/824056250",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Panera Bread"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3119434,
+          37.2433654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1294141804",
+      "properties": {
+        "@id": "node/1294141804",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Nonna's Italian American Cafe",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2920815,
+          37.2079531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1597282654",
+      "properties": {
+        "@id": "node/1597282654",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2937613,
+          37.18161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2083507893",
+      "properties": {
+        "@id": "node/2083507893",
+        "addr:housename": "Relics Antique Mall",
+        "addr:housenumber": "2015",
+        "addr:postcode": "65807",
+        "addr:street": "W Battlefield Road",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Relics Antique Mall Tea Room",
+        "website": "http://www.relicsantiquemall.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3201179,
+          37.161014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703674918",
+      "properties": {
+        "@id": "node/2703674918",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Billy Slims BBQ",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2563148,
+          37.1447404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703674937",
+      "properties": {
+        "@id": "node/2703674937",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Hooters",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2589235,
+          37.1411159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703674940",
+      "properties": {
+        "@id": "node/2703674940",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "IHOP",
+        "old_name": "International House of Pancakes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2541357,
+          37.1444983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703674964",
+      "properties": {
+        "@id": "node/2703674964",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Colton's Steak House & Grill",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2582368,
+          37.1410047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703674984",
+      "properties": {
+        "@id": "node/2703674984",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Old Chicago",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2572337,
+          37.140917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703675046",
+      "properties": {
+        "@id": "node/2703675046",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Outback Steakhouse",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2545595,
+          37.145067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703675164",
+      "properties": {
+        "@id": "node/2703675164",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2562118,
+          37.1366171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703675226",
+      "properties": {
+        "@id": "node/2703675226",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2554715,
+          37.1461189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703704937",
+      "properties": {
+        "@id": "node/2703704937",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2634618,
+          37.1573938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703704958",
+      "properties": {
+        "@id": "node/2703704958",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Chili's",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.261823,
+          37.1585246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703704964",
+      "properties": {
+        "@id": "node/2703704964",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2649182,
+          37.1567825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705040",
+      "properties": {
+        "@id": "node/2703705040",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2617103,
+          37.1543348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705102",
+      "properties": {
+        "@id": "node/2703705102",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Panera Bread",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2675253,
+          37.159027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705129",
+      "properties": {
+        "@id": "node/2703705129",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Asian King Buffet",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2619437,
+          37.1568102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705199",
+      "properties": {
+        "@id": "node/2703705199",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Primas Mexican Grill",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2563137,
+          37.1471238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705291",
+      "properties": {
+        "@id": "node/2703705291",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2595672,
+          37.150414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705319",
+      "properties": {
+        "@id": "node/2703705319",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2618283,
+          37.1505594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703705325",
+      "properties": {
+        "@id": "node/2703705325",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "Hardee's",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2704329,
+          37.1591296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703734827",
+      "properties": {
+        "@id": "node/2703734827",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Romano's Macaroni Grill",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2745366,
+          37.1590398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703734830",
+      "properties": {
+        "@id": "node/2703734830",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2795255,
+          37.1592365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703734862",
+      "properties": {
+        "@id": "node/2703734862",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Cielito Lindo",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2778659,
+          37.1604212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703734897",
+      "properties": {
+        "@id": "node/2703734897",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Shoney's",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2767957,
+          37.1604533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703765164",
+      "properties": {
+        "@id": "node/2703765164",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Heritage Cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2723614,
+          37.1585888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703765187",
+      "properties": {
+        "@id": "node/2703765187",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Golden Corral",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2584863,
+          37.1493943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800160",
+      "properties": {
+        "@id": "node/2703800160",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2808237,
+          37.1399998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800192",
+      "properties": {
+        "@id": "node/2703800192",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2632714,
+          37.166628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800217",
+      "properties": {
+        "@id": "node/2703800217",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2795792,
+          37.1395294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800219",
+      "properties": {
+        "@id": "node/2703800219",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2791688,
+          37.1401345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800228",
+      "properties": {
+        "@id": "node/2703800228",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2632821,
+          37.1658564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800281",
+      "properties": {
+        "@id": "node/2703800281",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2763391,
+          37.1405065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703800303",
+      "properties": {
+        "@id": "node/2703800303",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2789355,
+          37.1362066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703826143",
+      "properties": {
+        "@id": "node/2703826143",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2954462,
+          37.1376825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2703826216",
+      "properties": {
+        "@id": "node/2703826216",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2936071,
+          37.1358132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2706812859",
+      "properties": {
+        "@id": "node/2706812859",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.220227,
+          37.1797078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2727974773",
+      "properties": {
+        "@id": "node/2727974773",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Cedars Family Restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3491728,
+          37.2137157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2727974787",
+      "properties": {
+        "@id": "node/2727974787",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3479658,
+          37.2133612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2730569162",
+      "properties": {
+        "@id": "node/2730569162",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3014654,
+          37.1826651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2730569171",
+      "properties": {
+        "@id": "node/2730569171",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.306921,
+          37.182101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2730569215",
+      "properties": {
+        "@id": "node/2730569215",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3156677,
+          37.1828852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2730663564",
+      "properties": {
+        "@id": "node/2730663564",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3114808,
+          37.160538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2732882398",
+      "properties": {
+        "@id": "node/2732882398",
+        "addr:housenumber": "1540",
+        "addr:postcode": "65807",
+        "addr:street": "West Republic Road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Leong's Asian Diner",
+        "phone": "417-887-7500",
+        "source": "Bing",
+        "website": "leongsasiandiner.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3141002,
+          37.1378003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171672",
+      "properties": {
+        "@id": "node/2733171672",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2921391,
+          37.159564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171679",
+      "properties": {
+        "@id": "node/2733171679",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2936304,
+          37.1595619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171686",
+      "properties": {
+        "@id": "node/2733171686",
+        "addr:housenumber": "211",
+        "addr:street": "West Battlefield Road",
+        "amenity": "restaurant",
+        "contact:phone": "417-881-9558",
+        "cuisine": "indian",
+        "description": "BTC payment via Menufy.",
+        "name": "Gem of India",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://gemofindiaspringfield.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.293735,
+          37.1603998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171700",
+      "properties": {
+        "@id": "node/2733171700",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.295972,
+          37.1639268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171770",
+      "properties": {
+        "@id": "node/2733171770",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2951405,
+          37.1541322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171773",
+      "properties": {
+        "@id": "node/2733171773",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2942178,
+          37.1595384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171784",
+      "properties": {
+        "@id": "node/2733171784",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2885905,
+          37.1594614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733171795",
+      "properties": {
+        "@id": "node/2733171795",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2961758,
+          37.1615648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2735655764",
+      "properties": {
+        "@id": "node/2735655764",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "HuHot Mongolian Grill",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.264274,
+          37.1636146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2735655765",
+      "properties": {
+        "@id": "node/2735655765",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2643116,
+          37.1625886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738443400",
+      "properties": {
+        "@id": "node/2738443400",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2619958,
+          37.1769954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738443408",
+      "properties": {
+        "@id": "node/2738443408",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2629882,
+          37.1756811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738443410",
+      "properties": {
+        "@id": "node/2738443410",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2631384,
+          37.1751489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738443417",
+      "properties": {
+        "@id": "node/2738443417",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Five Spice China Grill",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2620655,
+          37.1761363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738465292",
+      "properties": {
+        "@id": "node/2738465292",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Jimm's Steakhouse & Pub",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2630284,
+          37.1791432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738592968",
+      "properties": {
+        "@id": "node/2738592968",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2618858,
+          37.1848532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738592977",
+      "properties": {
+        "@id": "node/2738592977",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2619582,
+          37.1854878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738809145",
+      "properties": {
+        "@id": "node/2738809145",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2728332,
+          37.1820742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738875506",
+      "properties": {
+        "@id": "node/2738875506",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2623941,
+          37.2001636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738893468",
+      "properties": {
+        "@id": "node/2738893468",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2623083,
+          37.2069102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738900167",
+      "properties": {
+        "@id": "node/2738900167",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2623056,
+          37.2137395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738900185",
+      "properties": {
+        "@id": "node/2738900185",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2624558,
+          37.21425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738912201",
+      "properties": {
+        "@id": "node/2738912201",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2623431,
+          37.2169585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738959304",
+      "properties": {
+        "@id": "node/2738959304",
+        "addr:housenumber": "2823",
+        "addr:postcode": "65803",
+        "addr:street": "North Glenstone Avenue",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Little Tokyo",
+        "phone": "417-862-6633",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2621715,
+          37.2480989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738959434",
+      "properties": {
+        "@id": "node/2738959434",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.260707,
+          37.2372134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738959488",
+      "properties": {
+        "@id": "node/2738959488",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2614741,
+          37.2369913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738959557",
+      "properties": {
+        "@id": "node/2738959557",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2619086,
+          37.2272831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738959620",
+      "properties": {
+        "@id": "node/2738959620",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2621339,
+          37.2175074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2738959629",
+      "properties": {
+        "@id": "node/2738959629",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2616243,
+          37.2306233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2739089048",
+      "properties": {
+        "@id": "node/2739089048",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3113927,
+          37.2461282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2739089132",
+      "properties": {
+        "@id": "node/2739089132",
+        "amenity": "restaurant",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3102635,
+          37.2476847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2741464666",
+      "properties": {
+        "@id": "node/2741464666",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Golden House Chinese Food",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3322744,
+          37.2117957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2741522978",
+      "properties": {
+        "@id": "node/2741522978",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Alli's Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3730058,
+          37.2127455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2741522999",
+      "properties": {
+        "@id": "node/2741522999",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "La Hacienda",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3665497,
+          37.2126494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2748968733",
+      "properties": {
+        "@id": "node/2748968733",
+        "addr:housenumber": "3459",
+        "addr:postcode": "65803",
+        "addr:street": "West Kearney Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Purple Burrito",
+        "phone": "417-866-7722"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3464434,
+          37.2419312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2748986652",
+      "properties": {
+        "@id": "node/2748986652",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3103811,
+          37.2483859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2751213403",
+      "properties": {
+        "@id": "node/2751213403",
+        "addr:housenumber": "3135",
+        "addr:postcode": "65803",
+        "addr:street": "North Glenstone Avenue",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "phone": "417-833-1800",
+        "source": "bing",
+        "website": "wafflehouse.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2654306,
+          37.2539089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2760220813",
+      "properties": {
+        "@id": "node/2760220813",
+        "addr:housenumber": "4153",
+        "addr:street": "South Scenic Avenue",
+        "amenity": "restaurant",
+        "contact:phone": "417-823-7138",
+        "cuisine": "chinese",
+        "description": "BTC payment via Menufy.",
+        "name": "China Wok",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://chinawokspringfield.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3329872,
+          37.1391554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2760235944",
+      "properties": {
+        "@id": "node/2760235944",
+        "addr:housenumber": "603",
+        "addr:street": "South Kimbrough Avenue",
+        "amenity": "restaurant",
+        "contact:phone": "417-832-1300",
+        "cuisine": "pizza",
+        "description": "BTC payment via Menufy.",
+        "name": "Pizza Habit",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://pizzahabit.menufy.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2872126,
+          37.203905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2760241587",
+      "properties": {
+        "@id": "node/2760241587",
+        "addr:housenumber": "3046",
+        "addr:street": "South Kimbrough Avenue",
+        "amenity": "restaurant",
+        "contact:phone": "417-877-2008",
+        "cuisine": "pizza",
+        "description": "BTC payment via Menufy.",
+        "name": "Rosati's Pizzeria",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://rosatisspringfield.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2848872,
+          37.1582718
+        ]
+      }
+    }
+  ]
+}
