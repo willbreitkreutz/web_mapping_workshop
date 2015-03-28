@@ -9,10 +9,6 @@ $('body').on('keyup',function(e){
 function enableShapfileTool(){
   shapeLayer = L.geoJson().addTo(map);
 
-  shapeLayer.on('layeradd',function(e){
-    map.fitBounds(shapeLayer.getBounds());
-  });
-
     var AddShapefileControl = L.Control.extend({
         options: {
             position: 'bottomleft'
@@ -38,6 +34,7 @@ function enableShapfileTool(){
         
         _queryShapefile: function(){
             var file = document.getElementById('input').files[0];
+            console.log(file);
             handleFile(file);
         },
         _fireInput:function(){
@@ -94,6 +91,7 @@ function enableShapfileTool(){
 
 function handleFile(file) {
     shapeLayer.clearLayers(); // remove any existing data -> comment out to allow multiple shapefiles
+    
     map.spin(true);
     var reader = new FileReader();
     
@@ -113,6 +111,10 @@ function handleFile(file) {
                             }
                         }
                     });
+
+                    window.setTimeout(function(){
+                        map.fitBounds(shapeLayer.getBounds())
+                    },50);
                     
                 },function(e){
                     map.spin(false);
