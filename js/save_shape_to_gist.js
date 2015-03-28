@@ -1,5 +1,11 @@
 var shapeLayer;
 
+$('body').on('keyup',function(e){
+    if(e.ctrlKey && e.keyCode === 83){
+        enableShapfileTool();
+    }
+});
+
 function enableShapfileTool(){
   shapeLayer = L.geoJson().addTo(map);
 
