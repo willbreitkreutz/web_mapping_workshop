@@ -15,7 +15,6 @@ map.setView([39, -96], 4);
 // This is the area we're going to use to add data to our map
 
 var dataFileToAdd = 'data/bike_routes.geojson'; //<- Point this to the file that you want to include on the map
-var dataToAdd;
 
 var featureLayer = L.mapbox.featureLayer()
     .loadURL(dataFileToAdd)
@@ -23,9 +22,9 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#F22E2E",
-        "fillColor": "#F22E2E",
-        "weight": 5,
+        "color": '#ec008c',
+        "fillColor": '#ec008c',
+        "weight": 6,
         "opacity": 1
     });
     map.fitBounds(featureLayer.getBounds());
