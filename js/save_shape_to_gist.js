@@ -1,7 +1,7 @@
 var shapeLayer;
 
 $('body').on('keyup',function(e){
-    if(e.ctrlKey && e.keyCode === 83){
+    if(e.ctrlKey && e.altKey && e.keyCode === 83){
         enableShapfileTool();
     }
 });
