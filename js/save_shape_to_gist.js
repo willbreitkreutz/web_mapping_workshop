@@ -1,4 +1,5 @@
 var shapeLayer;
+shapeLayer = L.geoJson().addTo(map);
 
 $('body').on('keyup',function(e){
     if(e.ctrlKey && e.altKey && e.keyCode === 83){
@@ -6,35 +7,81 @@ $('body').on('keyup',function(e){
     }
 });
 
+//Ok, I stole some code to make the map drag and drop enabled too...
+var mapframe = document.getElementById('map');
+var dropbox = document.getElementById("drag-overlay");
+mapframe.addEventListener("dragenter", dragenter, false);
+dropbox.addEventListener("dragenter", dropdragenter, false);
+dropbox.addEventListener("dragover", dragover, false);
+dropbox.addEventListener("drop", drop, false);
+dropbox.addEventListener("dragleave", function() {
+    map.scrollWheelZoom.enable();
+    $('#drag-overlay').hide();
+}, false);
+
+function dragenter(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    map.scrollWheelZoom.disable();
+    $('#drag-overlay').show();
+}
+
+function dropdragenter(e) {
+    e.stopPropagation();
+    e.preventDefault();
+}
+
+function dragover(e) {
+    e.stopPropagation();
+    e.preventDefault();
+}
+
+function drop(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    map.scrollWheelZoom.enable();
+    $('#drag-overlay').hide();
+    var dt = e.dataTransfer;
+    var files = dt.files;
+
+    var i = 0;
+    var len = files.length;
+    if (!len) {
+        return
+    }
+    while (i < len) {
+        handleFile(files[i]);
+        i++;
+    }
+}
+
 function enableShapfileTool(){
-  shapeLayer = L.geoJson().addTo(map);
 
     var AddShapefileControl = L.Control.extend({
         options: {
             position: 'bottomleft'
-        }, 
+        },
 
         onAdd: function(map) {
             this._container = L.DomUtil.create('div', 'nsi-control-query leaflet-bar leaflet-control');
             this._input = L.DomUtil.create('input','hide-input',this._container);
             this._input.type = 'file';
             this._input.id = 'input';
-            
+
             this._button = L.DomUtil.create('a','leaflet-bar-single',this._container);
             this._button.title = 'Add a shapefile to the map';
-            
+
             L.DomEvent
                     .on(this._input, 'change', this._queryShapefile, this)
                     .on(this._button, 'click', L.DomEvent.stopPropagation)
                     .on(this._button, 'click', L.DomEvent.preventDefault)
                     .on(this._button, 'click', this._fireInput, this);
-            
+
             return this._container;
         },
-        
+
         _queryShapefile: function(){
             var file = document.getElementById('input').files[0];
-            console.log(file);
             handleFile(file);
         },
         _fireInput:function(){
@@ -45,21 +92,21 @@ function enableShapfileTool(){
     var ShootShapefileControl = L.Control.extend({
         options: {
             position: 'bottomleft'
-        }, 
+        },
 
         onAdd: function(map) {
             this._container = L.DomUtil.create('div', 'nsi-control-query-shape leaflet-bar leaflet-control');
             this._button = L.DomUtil.create('a','leaflet-bar-single',this._container);
             this._button.title = 'Shoot your shapefile to a gist';
-            
+
             L.DomEvent
                     .on(this._button, 'click', L.DomEvent.stopPropagation)
                     .on(this._button, 'click', L.DomEvent.preventDefault)
                     .on(this._button, 'click', this._fireData, this);
-            
+
             return this._container;
         },
-        
+
         _fireData: function(){
             //  -> Shoot geoJSON to a github gist based on the code from the  NSI application
           map.spin(true);
@@ -91,10 +138,10 @@ function enableShapfileTool(){
 
 function handleFile(file) {
     shapeLayer.clearLayers(); // remove any existing data -> comment out to allow multiple shapefiles
-    
+
     map.spin(true);
     var reader = new FileReader();
-    
+
     if (file.name.slice(-3) === 'zip') {
         var reader = new FileReader();
         reader.onload = function(){
@@ -115,7 +162,7 @@ function handleFile(file) {
                     window.setTimeout(function(){
                         map.fitBounds(shapeLayer.getBounds())
                     },50);
-                    
+
                 },function(e){
                     map.spin(false);
                     console.log('Error: ', e);
@@ -127,10 +174,3 @@ function handleFile(file) {
         return undefined;
     }
 }
-
-
-
-
-
-
-

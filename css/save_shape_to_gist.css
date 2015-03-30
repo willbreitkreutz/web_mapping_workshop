@@ -1,3 +1,26 @@
+#drag-overlay {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  z-index:9999;
+  background:#333; color: #fff;
+  opacity:0.9;
+  filter:alpha(opacity=80); /* For IE8 and earlier */
+  color:white;
+  font: normal 700 32px sans-serif;
+}
+
+.drop-label {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-right:-50%;
+  transform:translate(-50%, -50%);
+
+}
+
 /* Query Control */
 .nsi-control-query a{
   background-image: url('../images/load_folder.png');
