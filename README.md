@@ -3,7 +3,7 @@ Web Mapping Workshop
 
 # UPDATE
 
-Here we go, we're set to run the workshop at FOSS4G NA this year in Raleagh!  Keep an eye on the repo for updates and changes as we get ready!
+Here we go, we're set to run the workshop at FOSS4G NA this year in Raleigh!  Keep an eye on the repo for updates and changes as we get ready!
 
 ## Outline
 
