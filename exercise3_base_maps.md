@@ -12,7 +12,7 @@ Check out their new tools for authoring base maps [here](https://www.mapbox.com/
 
 At the [MapBox home page](https://www.mapbox.com) login to your account if you aren't already.  This will take you to your account home page:
 
-![home_page.png]({{site.baseurl}}/img/home_page.png)
+![home_page.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/home_page.png)
 
 
 
