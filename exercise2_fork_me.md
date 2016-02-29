@@ -16,4 +16,8 @@ To fork the repository into your own copy, just hit the fork button at the top o
 
 ![fork_me.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/fork_me.png)
 
+Awesome, now you have a complete copy of the workshop in your profile.
+
+Before we get into the code, let's get a better base map set up, that green is too ugly to let slide.  [Exercise 3, Base Maps](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise3_base_maps.md)
+
 
