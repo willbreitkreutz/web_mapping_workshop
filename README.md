@@ -35,7 +35,7 @@ Thematic data can be integrated into the tile base-map image service, as it's ow
 
 Data rendered on the map in the browser is commonly managed in a data format called GeoJSON.  JSON (JavaScript Object Notation) is a way of organizing data piggy-backing on the way JavaScript handles objects.  JSON is becoming ubiquitous on the web for transferring data from server to client and back.  GeoJSON is a specification using JSON specifically for organizing geographic data.
 
-Check out the spec for [more information about GeoJSON](geojson.org)
+Check out the spec for [more information about GeoJSON](http://www.geojson.org)
 
 ## Mapping Client
 
