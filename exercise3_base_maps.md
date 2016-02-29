@@ -40,6 +40,9 @@ Save your project and then go back to your account page by clicking the little p
 
 Your new project will be listed on the page along with a map ID, remember where this is because we'll be needing it in the next exercise.
 
+![project.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/project.png)
+
+
 Alright, let's start doing some coding! [Exercise 4, A basic map](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise4_a_basic_map.md)
 
 
