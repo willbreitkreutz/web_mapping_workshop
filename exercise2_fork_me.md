@@ -14,6 +14,6 @@ You don't have edit rights on my version of the map, so you are going to make a 
 
 To fork the repository into your own copy, just hit the fork button at the top of the page:
 
-![fork_me.png]({{site.baseurl}}/img/fork_me.png)
+![fork_me.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/fork_me.png)
 
 
