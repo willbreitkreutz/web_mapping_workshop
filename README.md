@@ -51,4 +51,4 @@ All of the widely used web-mapping client libraries are JavaScript based.  These
 * [many others...](http://techslides.com/50-javascript-libraries-and-plugins-for-maps/)
 
 =================
-Ok, let's get started with [exercise 1, setting up our web map](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise1.md)
+Ok, let's get started with [exercise 1, setting up our web map](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise1_getting_set_up.md)
