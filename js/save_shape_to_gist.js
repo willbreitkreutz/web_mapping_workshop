@@ -46,6 +46,7 @@ function drop(e) {
 
     var i = 0;
     var len = files.length;
+  	console.log(JSON.stringify(files, null, 2)
     if (!len) {
         return
     }
