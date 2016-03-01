@@ -20,5 +20,26 @@ Let's go back to Prose.io to explore how that map works.
 
 Open the index.html file at the root directory.
 
+Let's break it down into the major parts:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+<link href='css/app.css' rel='stylesheet' />
+<link href='css/save_shape_to_gist.css' rel='stylesheet' />
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+</head>
+<body>
+```
+
+The top part of the file, or the `<HEAD>` section contains links to all of the css and javascript libraries that the app needs to function, these are the 3rd party files that we're leveraging without having to write ourselves.
+
 
 
