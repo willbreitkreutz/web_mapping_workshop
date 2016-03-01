@@ -4,12 +4,12 @@
 // this one references the ugly green map that I made.
 var mapId = 'will-breitkreutz.k6fj4l3f';
 
-// And this is my token, use yours.
-var token = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
+// And this is my access token, use yours.
+var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
 
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
-L.mapbox.accessToken = token;
+L.mapbox.accessToken = accessToken;
 var map = L.mapbox.map('map', mapId);
 
 // Set the initial view of the map to the whole US
