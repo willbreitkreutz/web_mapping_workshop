@@ -70,7 +70,6 @@ featureLayer.on('ready', function() {
 });
 ```
 
-That's it, you've added data to your map!
+That's it, you've added data to your map!  Feel free to change any of the style information to make it look the best it can on top of your basemap.
 
 Go ahead and open the map up in another tab and double check that you now have data on top of your basemap.  If you do, time to move on to the next [exercise](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise6_adding_basic_popups.md)
-
