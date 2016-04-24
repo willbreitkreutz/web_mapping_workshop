@@ -156,5 +156,7 @@ map.on('click',function(e){
 });
 ```
 
-Web Map Success!!
+## Web Map Success!!
+
+Let's have some more fun, how about putting a point on the map based on our users location?  If you've got time, check out [exercise 8](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise8_bonus_locate_me.md)
 
