@@ -43,15 +43,4 @@ Your new project will be listed on the page along with a map ID, remember where 
 ![project.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/project.png)
 
 
-Alright, let's start doing some coding! [Exercise 4, A basic map](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise4_a_basic_map.md)
-
-
-
-
-
-
-
-
-
-
-
+Alright, let's start doing some coding! [Exercise 4, A basic map](/exercise4_a_basic_map.md)
