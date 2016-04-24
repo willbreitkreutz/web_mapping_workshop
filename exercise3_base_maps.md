@@ -12,35 +12,35 @@ Check out their new tools for authoring base maps [here](https://www.mapbox.com/
 
 At the [MapBox home page](https://www.mapbox.com) login to your account if you aren't already.  This will take you to your account home page:
 
-![home_page.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/home_page.png)
+![home_page.png](/img/home_page.png)
 
 We're going to use the simple MapBox Editor tool instead of the more complex MapBox Studio since we don't have the time to get that deep into it, you should definitely try out Studio to experience the amount of detail you can put into the design.
 
 From your account home page, click on the Classic button in the left sidebar to open the classic tools:
 
-![classic.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/classic.png)
+![classic.png](/img/classic.png)
 
 Then click on the Editor projects tab:
 
-![editor_projects.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/editor_projects.png)
+![editor_projects.png](/img/editor_projects.png)
 
 Then you can click to create a new MapBox Editor project:
 
-![new_project.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/new_project.png)
+![new_project.png](/img/new_project.png)
 
 Choose from one of the standard base maps that they provide.  You used to be able to do some slight customization in this interface, but they would like you to use one of their Studio products to make more custom base maps.  For this workshop we'll settle for one of the out of the box themes.
 
-![base_maps.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/base_maps.png)
+![base_maps.png](/img/base_maps.png)
 
 You can add or create data that MapBox will publish for you as part of your layer here as well, but we're going to be doing that later on in the workshop so let's hold off on that for now.
 
 Save your project and then go back to your account page by clicking the little profile icon at the upper left of the screen:
 
-![profile.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/profile.png)
+![profile.png](/img/profile.png)
 
 Your new project will be listed on the page along with a map ID, remember where this is because we'll be needing it in the next exercise.
 
-![project.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/project.png)
+![project.png](/img/project.png)
 
 
 Alright, let's start doing some coding! [Exercise 4, A basic map](/exercise4_a_basic_map.md)

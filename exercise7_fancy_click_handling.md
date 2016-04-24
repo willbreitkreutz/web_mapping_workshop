@@ -53,7 +53,7 @@ Now we want to get a reference to the feature that the user clicked on.  Lucky f
 ```javascript
 var clickHandler = function(e){
 	$('#info').empty();
-    
+
     var feature = e.target.feature;
 };
 ```
@@ -63,11 +63,11 @@ Now we can show our info element and add text from the attributes of our feature
 ```javascript
 var clickHandler = function(e){
 	$('#info').empty();
-    
+
     var feature = e.target.feature;
-    
+
     $('#info').fadeIn(400, function(){
-    
+
     }
 };
 ```
@@ -158,5 +158,4 @@ map.on('click',function(e){
 
 ## Web Map Success!!
 
-Let's have some more fun, how about putting a point on the map based on our users location?  If you've got time, check out [exercise 8](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise8_bonus_locate_me.md)
-
+Let's have some more fun, how about putting a point on the map based on our users location?  If you've got time, check out [exercise 8](/exercise8_bonus_locate_me.md)

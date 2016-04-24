@@ -13,7 +13,7 @@ var mapId = 'will-breitkreutz.k6fj4l3f';
 // And this is my access token, use yours.
 var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
 
-// Create the map object with your mapId and token, 
+// Create the map object with your mapId and token,
 // referencing the DOM element where you want the map to go.
 L.mapbox.accessToken = accessToken;
 var map = L.mapbox.map('map', mapId);
@@ -72,4 +72,4 @@ featureLayer.on('ready', function() {
 
 That's it, you've added data to your map!  Feel free to change any of the style information to make it look the best it can on top of your basemap.
 
-Go ahead and open the map up in another tab and double check that you now have data on top of your basemap.  If you do, time to move on to the next [exercise](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise6_adding_basic_popups.md)
+Go ahead and open the map up in another tab and double check that you now have data on top of your basemap.  If you do, time to move on to the next [exercise](/exercise6_adding_basic_popups.md)

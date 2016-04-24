@@ -14,10 +14,8 @@ You don't have edit rights on my version of the map, so you are going to make a 
 
 To fork the repository into your own copy, just hit the fork button at the top of the page:
 
-![fork_me.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/fork_me.png)
+![fork_me.png](/img/fork_me.png)
 
 Awesome, now you have a complete copy of the workshop in your profile.
 
-Before we get into the code, let's get a better base map set up, that green is too ugly to let slide.  [Exercise 3, Base Maps](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise3_base_maps.md)
-
-
+Before we get into the code, let's get a better base map set up, that green is too ugly to let slide.  [Exercise 3, Base Maps](/exercise3_base_maps.md)

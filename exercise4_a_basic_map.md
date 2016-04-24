@@ -86,7 +86,7 @@ Notice how the exercise 4 file is the only uncommented one.  This way if you hap
 
 ```
 
-At the bottom of the page is the special bonus section, we'll cover what it does if we have time at the end of the workshop. Also, you can check out [special_bonus.md](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/special_bonus.md) later if we don't quite get there.
+At the bottom of the page is the special bonus section, we'll cover what it does if we have time at the end of the workshop. Also, you can check out [special_bonus.md](/special_bonus.md) later if we don't quite get there.
 
 ## Get Rid of the Ugly!
 
@@ -105,7 +105,7 @@ var mapId = 'will-breitkreutz.k6fj4l3f';
 // And this is my access token, use yours.
 var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
 
-// Create the map object with your mapId and token, 
+// Create the map object with your mapId and token,
 // referencing the DOM element where you want the map to go.
 L.mapbox.accessToken = accessToken;
 var map = L.mapbox.map('map', mapId);
@@ -123,14 +123,14 @@ Replace the map ID and access token with your map ID from the map you just creat
 
 The map ID is located with the layer you created:
 
-![project.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/project.png)
+![project.png](/img/project.png)
 
 Your access token is located in the home page of your MapBox account in the right sidebar in a section that looks like this:
 
-![access_token.png](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/img/access_token.png)
+![access_token.png](/img/access_token.png)
 
 Copy each of these and replace the ones in `js/exercise_4.js`.
 
 Go to your map link and check out your map, I'll bet it's looking better already!
 
-We'll level up and add some Thematic data to the map in the next [exercise](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise5_put_some_data_on_the_map.md)
+We'll level up and add some Thematic data to the map in the next [exercise](/exercise5_put_some_data_on_the_map.md)

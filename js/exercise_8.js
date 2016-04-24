@@ -1,7 +1,6 @@
 // exercise 8
 
 var myLocation = L.mapbox.featureLayer().addTo(map);
-map.locate();
 map.on('locationfound', function(e) {
 
     myLocation.setGeoJSON({
@@ -16,6 +15,6 @@ map.on('locationfound', function(e) {
             'marker-symbol': 'star'
         }
     });
-  
+
 });
-map.locate();
+map.locate({setView:true});

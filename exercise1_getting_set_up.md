@@ -7,4 +7,4 @@ In order to fully leverage the tools that are available to us we need to have ac
 
 Oh and make sure that you confirm your e-mail address for GitHub or the publishing tools that we're going to use won't work very well.
 
-Ok, good, let's go to [exercise 2](https://github.com/willbreitkreutz/web_mapping_workshop/blob/gh-pages/exercise2_fork_me.md).
+Ok, good, let's go to [exercise 2](/exercise2_fork_me.md).
