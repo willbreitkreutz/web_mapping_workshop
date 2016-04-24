@@ -7,7 +7,6 @@ $('body').on('keyup',function(e){
     }
 });
 
-//Ok, I stole some code to make the map drag and drop enabled too...
 var mapframe = document.getElementById('map');
 var dropbox = document.getElementById("drag-overlay");
 mapframe.addEventListener("dragenter", dragenter, false);
