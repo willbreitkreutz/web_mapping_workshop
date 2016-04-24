@@ -16,4 +16,4 @@ featureLayer.on('ready', function(){
 
 This adds another callback to run when the featureLayer is ready to go, this function loops through each feature, called a 'layer' in the code and adds a popup that presents the user with the name of the park they clicked on.  If you chose to use a different layer you will need to edit the popup contents to reference valid data from that layer.
 
-Once you get the popups working and showing your users some useful information we can move to the next [exercise](/exercise7_fancy_click_handling.md.md)
+Once you get the popups working and showing your users some useful information we can move to the next [exercise](/exercise7_fancy_click_handling.md)
