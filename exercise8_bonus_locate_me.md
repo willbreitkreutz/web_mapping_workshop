@@ -43,4 +43,4 @@ map.locate({setView:true});
 
 You've made a pretty great start on developing a mapping application and didn't event have to leave the comfort of the browser to do it!
 
-Time to dig into the [docs and examples](https://www.mapbox.com/mapbox.js/api) and build away!  
+If you've still got time, check out the super bonus round, [exercise 9](/exercise8_super_bonus_add_directions.md).
