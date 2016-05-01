@@ -8,8 +8,10 @@ var clickHandler = function(e){
     var info = '';
 
     info += '<div>'
-    info +=   '<h2>' + feature.properties.LABEL + '</h2>'
-    info +=   '<p>'  + feature.properties.LOCATION + '</p>'
+    info += '<h2>' + feature.properties.name + '</h2>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.cuisine + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.phone + '</p>'
+    if(feature.properties.phone) info +=   '<p><a href="' + feature.properties.website + '">'  + feature.properties.website + '</a></p>'
     info += '</div>'
 
     $('#info').append(info);
@@ -24,5 +26,5 @@ featureLayer.on('ready', function(){
 
 map.on('click',function(e){
 	$('#info').fadeOut(200);
-    $('#info').empty();
+  $('#info').empty();
 });

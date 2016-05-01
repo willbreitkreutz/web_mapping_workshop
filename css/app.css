@@ -1,9 +1,11 @@
   body {
+
   	margin:0;
   	padding:0;
   }
   p{
   	margin:0px;
+    margin-bottom:5px;
   }
 
   #map {
@@ -15,11 +17,70 @@
   	z-index:-99;
   }
 
-  #info {
-      position:absolute; top: 10px; right: 10px; bottom: 10px; width: 260px;
-      background:#333; color: #fff;
-      padding:20px;
-      font-family: Arial, Helvetica, sans-serif;
-      opacity:0.9;
-	  filter:alpha(opacity=80); /* For IE8 and earlier */
+  #sidebar{
+    position:absolute; top: 10px; right: 10px; bottom: 10px; width: 260px;
+    background:#333;
+    color: #fff;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity:0.9;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    overflow: auto
+  }
+
+  ul {
+    padding:0;
+    margin:0;
+    margin-top:10px;
+  }
+
+  li {
+    list-style: none;
+    padding-bottom:3px;
+    padding-top:3px
+  }
+
+  li:hover {
+    background-color:rgba(255,255,255,.2);
+  }
+
+  .post-transition {
+    padding:0;
+    margin:0;
+    padding-left: 5px;
+    font-style:italic;
+    font-size: .8em;
+    padding-bottom:5px;
+  }
+
+  .pre-transition {
+    padding:0;
+    margin:0;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .styled-scrollbar::-webkit-scrollbar {
+  	width: 5px;
+  	height: 5px;
+  }
+  .styled-scrollbar::-webkit-scrollbar-track {
+  	background-color: rgba(255,255,255,.5);
+  	-webkit-border-radius: 5px;
+  }
+  .styled-scrollbar::-webkit-scrollbar-thumb:vertical {
+  	background-color: rgba(0,0,0,.2);
+  	-webkit-border-radius: 6px;
+  }
+  .styled-scrollbar::-webkit-scrollbar-thumb:vertical:hover,
+  .styled-scrollbar::-webkit-scrollbar-thumb:horizontal:hover {
+  	background: #ccc;
+  }
+  .styled-scrollbar::-webkit-scrollbar-thumb:horizontal {
+  	background-color: rgba(255,255,255,.2);
+  	-webkit-border-radius: 6px;
   }

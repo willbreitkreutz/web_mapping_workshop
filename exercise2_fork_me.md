@@ -6,7 +6,7 @@ Basically it works by publishing anything you put in a branch called "gh-pages" 
 
 Curious what it looks like?  Check it out here:
 
-[http://willbreitkreutz.github.io/web_mapping_workshop/](http://willbreitkreutz.github.io/web_mapping_workshop/)
+[https://willbreitkreutz.github.io/web_mapping_workshop/](https://willbreitkreutz.github.io/web_mapping_workshop/)
 
 Now that's one ugly map isn't it!  Well, you're going to do something about that.
 

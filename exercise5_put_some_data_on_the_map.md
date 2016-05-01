@@ -45,9 +45,9 @@ Go to prose.io and open your js/exercise4.js file, we're going to make some edit
 
 At the end of the file, add the following code:
 
-_We need to set the path to our data file to a variable, replace parks.geojson with the data file that you want to use_
+_We need to set the path to our data file to a variable, replace restaurants.geojson with the data file that you want to use_
 ```javascript
-var dataFileToAdd = 'data/parks.geojson';
+var dataFileToAdd = 'data/restaurants.geojson';
 ```
 
 _Then we need to create a featureLayer to hold the data_
@@ -60,13 +60,14 @@ var featureLayer = L.mapbox.featureLayer()
 _Finally we're going to set the style and zoom the map to the layer once the featureLayer is ready to render_
 ```javascript
 featureLayer.on('ready', function() {
-    this.setStyle({
-        "color": "#6583BF",
-        "fillColor": "#6583BF",
-        "weight": .5,
-        "opacity": 0.65
-    });
-    map.fitBounds(featureLayer.getBounds());
+  this.eachLayer(function(layer){
+    layer.setIcon(L.mapbox.marker.icon({
+      'marker-color': '#8834bb',
+      'marker-size': 'large',
+      'marker-symbol': 'restaurant'
+    }))
+  });
+  map.fitBounds(featureLayer.getBounds());
 });
 ```
 

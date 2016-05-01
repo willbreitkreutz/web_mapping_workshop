@@ -1,16 +1,17 @@
 
-var dataFileToAdd = 'data/parks.geojson';
+var dataFileToAdd = 'data/restaurants.geojson';
 
 var featureLayer = L.mapbox.featureLayer()
-    .loadURL(dataFileToAdd)
-    .addTo(map);
+  .loadURL(dataFileToAdd)
+  .addTo(map);
 
 featureLayer.on('ready', function() {
-    this.setStyle({
-        "color": "#6583BF",
-        "fillColor": "#6583BF",
-        "weight": .5,
-        "opacity": 0.65
-    });
-    map.fitBounds(featureLayer.getBounds());
+  this.eachLayer(function(layer){
+    layer.setIcon(L.mapbox.marker.icon({
+      'marker-color': '#8834bb',
+      'marker-size': 'large',
+      'marker-symbol': 'restaurant'
+    }))
+  });
+  map.fitBounds(featureLayer.getBounds());
 });

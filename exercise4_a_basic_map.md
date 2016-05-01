@@ -12,7 +12,7 @@ Now you could download all of the code for the project to your local machine, ma
 
 Since you forked my project, you now have a complete working copy of the ugly green map that I built out.  Check it out at
 
-http://www. {your GitHub user name} .github.io/web_mapping_workshop/
+https://www. {your GitHub user name} .github.io/web_mapping_workshop/
 
 Is the map a ugly shade of green?  Great!  Keep that link handy, that's where you're going to build your app.
 

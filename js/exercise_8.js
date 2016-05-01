@@ -1,5 +1,4 @@
 // exercise 8
-
 var myLocation = L.mapbox.featureLayer().addTo(map);
 map.on('locationfound', function(e) {
 

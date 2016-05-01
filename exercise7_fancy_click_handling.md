@@ -23,7 +23,7 @@ Unless we want popups _and_ the overlay box, we should either delete or comment 
 ```javascript
 //featureLayer.on('ready', function(){
 //  this.eachLayer(function(layer){
-//    layer.bindPopup('Welcome to ' + layer.feature.properties.LABEL);
+//    layer.bindPopup('Welcome to ' + layer.feature.properties.name);
 //  });
 //});
 ```
@@ -72,7 +72,7 @@ var clickHandler = function(e){
 };
 ```
 
-The `.fadeIn()` function allows us to provide a callback that we can use to add elements to the panel once it's ready.  We're going to create a string variable and populate it using properties from our feature, if you used a dataset other than parks.geojson the feature names will need to be changed.
+The `.fadeIn()` function allows us to provide a callback that we can use to add elements to the panel once it's ready.  We're going to create a string variable and populate it using properties from our feature, if you used a dataset other than restaurants.geojson the feature names will need to be changed.
 
 ```javascript
 var clickHandler = function(e){
@@ -84,8 +84,11 @@ var clickHandler = function(e){
     var info = '';
 
     info += '<div>'
-    info +=   '<h2>' + feature.properties.LABEL + '</h2>'
-    info +=   '<p>'  + feature.properties.LOCATION + '</p>'
+    info += '<h2>' + feature.properties.name + '</h2>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.cuisine + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.phone + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.website + '</p>'
+    if(feature.properties.phone) info +=   '<p><a href="' + feature.properties.website + '">'  + feature.properties.website + '</a></p>'
     info += '</div>'
 
     $('#info').append(info);
@@ -107,8 +110,11 @@ var clickHandler = function(e){
     var info = '';
 
     info += '<div>'
-    info +=   '<h2>' + feature.properties.LABEL + '</h2>'
-    info +=   '<p>'  + feature.properties.LOCATION + '</p>'
+    info += '<h2>' + feature.properties.name + '</h2>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.cuisine + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.phone + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.website + '</p>'
+    if(feature.properties.phone) info +=   '<p><a href="' + feature.properties.website + '">'  + feature.properties.website + '</a></p>'
     info += '</div>'
 
     $('#info').append(info);
@@ -136,8 +142,11 @@ var clickHandler = function(e){
     var info = '';
 
     info += '<div>'
-    info +=   '<h2>' + feature.properties.LABEL + '</h2>'
-    info +=   '<p>'  + feature.properties.LOCATION + '</p>'
+    info += '<h2>' + feature.properties.name + '</h2>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.cuisine + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.phone + '</p>'
+    if(feature.properties.phone) info +=   '<p>'  + feature.properties.website + '</p>'
+    if(feature.properties.phone) info +=   '<p><a href="' + feature.properties.website + '">'  + feature.properties.website + '</a></p>'
     info += '</div>'
 
     $('#info').append(info);
