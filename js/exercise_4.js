@@ -106,7 +106,7 @@ function getDirections(frm, to){
           {lat: to[1], lon: to[0]}
         ],
       	costing: 'pedestrian',
-      	directionOptions:{
+      	directions_options:{
       		units: 'miles'
         }
     })
@@ -134,7 +134,7 @@ function getDirections(frm, to){
         $('#directions').fadeIn(400, function(){
           	var summary = data.trip.summary
         	$('#summary').empty();
-          	$('#distance').text((Math.round(summary.length * 100) / 100) + data.trip.units);
+          	$('#distance').text((Math.round(summary.length * 100) / 100) + ' ' + data.trip.units);
           	$('#time').text((Math.round(summary.time / 60 * 100) / 100) + ' min');
           
           
