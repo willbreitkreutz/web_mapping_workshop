@@ -37,7 +37,7 @@ _In the live workshop we'll walk through extracting some data from overpass-turb
 
 For the lazy out there, I've also included a couple of datasets in this repository, you can find them in the /data folder.  Notice that if you look at the datasets in GitHub, it will let you preview the data on a map, pretty cool huh.
 
-Pick one of the datasets in the /data folder, or get ahold of one of your own and save it in the /data folder before moving on to the next step.
+We're going to use the restaurants.geojson dataset for the tutorial.
 
 ## Add GeoJSON to the map
 
