@@ -4,10 +4,10 @@ Popups are cool, but what if we want a little more professional looking interact
 
 I've snuck in a panel that's been invisible so far that overlays on top of the map at the right side, we're going to put our data in that panel instead of in the popup when the user clicks on a feature.
 
-If you look at `index.html` you'll see right next to the `<div>` called 'map' there's a `<div>` with the ID of 'info', that's our overlay.  We've also included a little css to position and style it to our liking:
+If you look at `index.html` you'll see right next to the `<div>` called 'map' there's a `<div>` with the ID of 'sidebar' that contains a couple of other nodes, that's our overlay.  We've also included a little css to position and style it to our liking:
 
 ```css
-#info {
+#sidebar {
       position:absolute; top: 10px; right: 10px; bottom: 10px; width: 260px;
       background:#333; color: #fff;
       padding:20px;
@@ -40,7 +40,7 @@ var clickHandler = function(e){
 
 When the user clicks on a new feature we want to make sure any old data is removed, we're going to use [jQuery](https://jquery.com/) to do any of the actual DOM interaction because they make it super easy.  Everywhere you see a `$` we're using the jQuery library.
 
-Using the jQuery selector for any node with the ID of 'info' we make sure to remove any child elements.
+Using the jQuery selector for any node with the ID of 'info' (that's where we're going to put some info about the point that the user clicks on) we make sure to remove any child elements.
 
 ```javascript
 var clickHandler = function(e){
@@ -66,7 +66,7 @@ var clickHandler = function(e){
 
     var feature = e.target.feature;
 
-    $('#info').fadeIn(400, function(){
+    $('#sidebar').fadeIn(400, function(){
 
     }
 };
@@ -80,7 +80,7 @@ var clickHandler = function(e){
 
   var feature = e.target.feature;
 
-  $('#info').fadeIn(400,function(){
+  $('#sidebar').fadeIn(400,function(){
     var info = '';
 
     info += '<div>'
@@ -106,7 +106,7 @@ var clickHandler = function(e){
 
   var feature = e.target.feature;
 
-  $('#info').fadeIn(400,function(){
+  $('#sidebar').fadeIn(400,function(){
     var info = '';
 
     info += '<div>'
@@ -138,7 +138,7 @@ var clickHandler = function(e){
 
   var feature = e.target.feature;
 
-  $('#info').fadeIn(400,function(){
+  $('#sidebar').fadeIn(400,function(){
     var info = '';
 
     info += '<div>'
